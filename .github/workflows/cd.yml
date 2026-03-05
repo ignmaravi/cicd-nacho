@@ -12,7 +12,7 @@ name: CD - Despliegue a GitHub Pages
 # TODO 1: Sustituye ____ por el evento correcto.
 # Pregunta: Cuando fusionas un PR, ¿qué evento se produce en la rama main?
 on:
-  merge:
+  push:
     branches: [ main ]
 
 jobs:
